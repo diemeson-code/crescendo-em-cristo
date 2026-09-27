@@ -1,0 +1,56 @@
+.jornada {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: var(--cor-branca);
+}
+
+.jornada h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.jornada p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 30px 20px;
+  background-color: #6b4f2a;;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+
+@media (max-width: 768px){ 
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .jornada {
+    padding: 60px 20px;
+  }
+
+  .jornada h2 {
+    font-size: 30px;
+  }
+}

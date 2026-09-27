@@ -1,0 +1,33 @@
+.sobre {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: var(--cor-branca);
+}
+
+.sobre h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: var(--cor-principal);
+}
+
+.sobre p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--cor-texto);
+}
+
+@media (max-width: 768px) {
+  .sobre {
+    padding: 60px 20px;
+  }
+
+  .sobre h2 {
+    font-size: 30px;
+  }
+
+  .sobre p {
+    font-size: 16px;
+  }
+}

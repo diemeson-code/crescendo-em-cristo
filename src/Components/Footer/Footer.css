@@ -1,0 +1,15 @@
+
+
+
+
+footer {
+  padding: 30px 20px;
+  text-align: center;
+  background-color: var(--cor-principal);
+  color: var(--cor-branca);
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}

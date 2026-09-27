@@ -1,0 +1,48 @@
+/* Estiliza o elemento <header> inteiro */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: var(--cor-branca);
+}
+
+/* Estiliza o título do Header */
+header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Organiza os links lado a lado */
+header nav {
+  display: flex;
+  gap: 25px;
+}
+
+/* Estiliza os links */
+header nav a {
+  color: var(--cor-texto);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Quando passar o mouse */
+header nav a:hover {
+  color: var(--cor-principal);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+}
