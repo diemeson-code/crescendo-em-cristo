@@ -1,6 +1,12 @@
 import "./Hero.css";
 
 function Hero() {
+  function iniciarJornada() {
+    document.getElementById("jornada")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }
+
   return (
     <main id="inicio" className="hero">
       <div className="hero-content">
@@ -10,13 +16,9 @@ function Hero() {
           Todos os dias podemos crescer no conhecimento da Palavra de Deus.
         </p>
 
-        <button onClick={() => {
-  document.getElementById("jornada")?.scrollIntoView({
-    behavior: "smooth",
-  });
-}}>
-  Começar minha jornada
-</button>
+        <button onClick={iniciarJornada}>
+          Começar minha jornada
+        </button>
       </div>
     </main>
   );

@@ -11,6 +11,7 @@ header {
 header h2 {
   margin: 0;
   font-size: 24px;
+  color: var(--cor-principal);
 }
 
 /* Organiza os links lado a lado */
@@ -21,15 +22,18 @@ header nav {
 
 /* Estiliza os links */
 header nav a {
+  display: inline-block;
   color: var(--cor-texto);
   text-decoration: none;
   font-weight: 500;
-  transition: 0.3s;
+  transition: color 0.3s ease, transform 0.3s ease;
+
 }
 
 /* Quando passar o mouse */
 header nav a:hover {
   color: var(--cor-principal);
+  transform: translateY(-2px);
 }
 
 /* Responsividade */
@@ -46,3 +50,4 @@ header nav a:hover {
     gap: 15px;
   }
 }
+

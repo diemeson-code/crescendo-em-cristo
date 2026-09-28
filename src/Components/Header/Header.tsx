@@ -4,9 +4,9 @@ function Header(){
    return(
       
       <header>
-         <h2>Crecendo em Cristo</h2>
+         <h2>Crescendo em Cristo</h2>
          <nav>
-            <a href="#Inicio">Inicio</a>
+            <a href="#inicio">Início</a>
             <a href="#jornada">Jornada</a>
             <a href="#devocional">Devocional</a>
             <a href="#sobre">Sobre</a></nav>

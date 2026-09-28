@@ -24,7 +24,7 @@
 
 .card {
   padding: 30px 20px;
-  background-color: #6b4f2a;;
+  background-color:var(--cor-principal);
   border-radius: 10px;
 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
@@ -34,10 +34,12 @@
 
 .card:hover {
   transform: translateY(-5px);
+   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
 
 .card h3 {
   font-size: 20px;
+  color: var(--cor-branca);
 }
 
 
